@@ -21,7 +21,7 @@ public class Q17_LargestSmallestWord {
 			}
 		}
 		System.out.println("Smallest word: " + smallWord);
-		System.out.println("Largest word : " + largeWord);
+		System.out.println("Largest word: " + largeWord);
 	}
 
 }

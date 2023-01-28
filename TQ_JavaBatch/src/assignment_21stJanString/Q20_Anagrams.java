@@ -16,7 +16,7 @@ public class Q20_Anagrams {
 
 		String str1 = s.toLowerCase();
 
-		String str2 = s.toLowerCase();
+		String str2 = s1.toLowerCase();
 
 		char arr[] = str1.toCharArray();
 		char arr1[] = str2.toCharArray();
@@ -35,10 +35,10 @@ public class Q20_Anagrams {
 			}
 		}
 
-		for (int i = 0; i < arr.length; i++) {
-			// System.out.println(arr[i]);
-		}
-		for (int i = 0; i < arr1.length; i++) {
+//		for (int i = 0; i < arr.length; i++) {
+//			// System.out.println(arr[i]);
+//		}
+	for (int i = 0; i < arr1.length; i++) {
 			for (int j = i + 1; j < arr1.length; j++) {
 				if (arr1[i] > arr1[j]) {
 					char temp = arr1[i];

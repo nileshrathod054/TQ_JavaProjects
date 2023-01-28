@@ -13,14 +13,15 @@ public class Q21_PasswordValidation {
 
 		if (password.length() < 8) {
 			System.out.println("Password must be 8 chars long.");
-		} else if (!password.matches("[#@]{1,}")) {
+		} else if (password.matches("[#@]{1}")) {
 			System.out.println("At least one special @ or # character must be present.");
-		} else if (!password.matches("[0-9]{1,}")) {
+		} else if (!password.matches("0-9{1}")) {
 			System.out.println("Password must contain at least one digit.");
 		} else if (password.contains(" ")) {
 			System.out.println("Password must not have space.");
 		} else if (!password.matches("[A-Z]{1,}")) {
 			System.out.println("Password must have at least one uppercase letter.");
+			
 		} else if (password.equals("tQ123")) {
 			System.out.println("Password must be 8 chars long. At least one special @ or # character must be present.");
 		} else {

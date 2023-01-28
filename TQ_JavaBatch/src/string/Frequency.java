@@ -3,7 +3,7 @@ package string;
 public class Frequency {
 
 	public static void main(String[] args) {
-		String s = "india is beautiful country";
+		String s = "India is a beautiful country";
 
 		char ch[] = s.toCharArray();
 
