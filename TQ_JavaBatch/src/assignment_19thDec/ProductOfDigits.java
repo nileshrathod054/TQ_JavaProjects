@@ -25,6 +25,7 @@ public class ProductOfDigits {
 		}
 
 		System.out.println("Product of digits of number : " + prod);
+		
 	}
 
 }
