@@ -7,9 +7,12 @@ public static void main(String[] args) {
 	for(int i=0; i<a.length;i++) {
 		for(int j=i+1; j<a.length; j++) {
 			if(a[i]<a[j]) {
-				temp=
+				temp=a[i];
+				a[i]=a[j];
+				a[j]=temp;
 			}
 		}
 	}
+	System.out.println("Second largest element in an array : "+a[1]);
 }
 }
