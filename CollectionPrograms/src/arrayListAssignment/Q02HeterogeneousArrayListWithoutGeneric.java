@@ -2,7 +2,7 @@ package arrayListAssignment;
 
 import java.util.ArrayList;
 
-public class Q2HeterogeneousArrayListWithoutGeneric {
+public class Q02HeterogeneousArrayListWithoutGeneric {
 
 	public static void main(String[] args) {
 		ArrayList al = new ArrayList();

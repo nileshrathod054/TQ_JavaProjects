@@ -2,7 +2,7 @@ package arrayListAssignment;
 
 import java.util.ArrayList;
 
-public class Q8RemoveElementFromArrayList {
+public class Q08RemoveElementFromArrayList {
 	public static void main(String[] args) {
 		ArrayList<String> colors = new ArrayList<String>();
 		colors.add("Red");

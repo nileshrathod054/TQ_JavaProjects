@@ -2,18 +2,16 @@ package arrayListAssignment;
 
 import java.util.*;
 
-public class Q4IteratorInArrayList {
+public class Q06ArrayListUsingForEachLoop {
 	public static void main(String[] args) {
 		ArrayList<String> al = new ArrayList<String>();
 		al.add("Mango");
 		al.add("Apple");
+		al.add("Orange");
 		al.add("Banana");
 		al.add("Grapes");
-		al.add("Orange");
-
-		Iterator itr = al.iterator();
-		while (itr.hasNext()) {
-			System.out.println(itr.next());
-		}
+		al.add("Straberry");
+		for (String fruit : al)
+			System.out.println(fruit);
 	}
 }

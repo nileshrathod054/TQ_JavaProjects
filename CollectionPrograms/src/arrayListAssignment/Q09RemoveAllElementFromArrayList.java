@@ -2,7 +2,7 @@ package arrayListAssignment;
 
 import java.util.ArrayList;
 
-public class Q9RemoveAllElementFromArrayList {
+public class Q09RemoveAllElementFromArrayList {
 	public static void main(String[] args) {
 		ArrayList<String> colors = new ArrayList<String>();
 		colors.add("Red");
@@ -13,6 +13,6 @@ public class Q9RemoveAllElementFromArrayList {
 		colors.add("Yellow");
 		System.out.println(" Original Arraylist : " + colors);
 		colors.removeAll(colors);
-		System.out.println("\n After removing an element of index 1 : " + colors);
+		System.out.println("\n After removing an element : " + colors);
 	}
 }

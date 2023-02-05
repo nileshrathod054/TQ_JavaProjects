@@ -2,7 +2,7 @@ package arrayListAssignment;
 
 import java.util.*;
 
-public class Q7ColorsArrayList {
+public class Q07ColorsArrayList {
 	public static void main(String[] args) {
 		ArrayList<String> colors = new ArrayList<String>();
 		colors.add("Red");

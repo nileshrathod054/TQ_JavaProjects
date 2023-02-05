@@ -2,7 +2,7 @@ package arrayListAssignment;
 
 import java.util.ArrayList;
 
-public class Q1ArrayListWithoutGenerics {
+public class Q01ArrayListWithoutGenerics {
 	public static void main(String[] args) {
 		ArrayList al1 = new ArrayList();
 		// Integer type arrayList without using Generic
