@@ -14,7 +14,7 @@ public class Q01ArrayListWithoutGenerics {
 		al1.add(6);
 		al1.add(7);
 		System.out.println("Content of Integer type ArrayList : " + "\n" + al1);
-		// String type ArrayList without using Gneric
+		// String type ArrayList without using Generic
 		ArrayList al2 = new ArrayList();
 		al2.add("Nilesh");
 		al2.add("Suraj");

@@ -9,6 +9,7 @@ public class Q20CheckCollection {
 		System.out.println("Before adding elements in collection");
 		if (collection.isEmpty()) {
 			System.out.println("Collection is empty");
+			System.out.println("Add some elements in collection");
 		} else {
 			System.out.println("Elements of the collection are : " + collection);
 		}

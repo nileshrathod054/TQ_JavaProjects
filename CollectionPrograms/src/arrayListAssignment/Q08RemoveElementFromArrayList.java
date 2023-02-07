@@ -12,7 +12,8 @@ public class Q08RemoveElementFromArrayList {
 		colors.add("White");
 		colors.add("Yellow");
 		System.out.println(" Original Arraylist : "+colors);
-		colors.remove(1);
+	
+		colors.remove(0);
 		System.out.println("\n After removing an element of index 1 : "+colors);
 	}
 }
