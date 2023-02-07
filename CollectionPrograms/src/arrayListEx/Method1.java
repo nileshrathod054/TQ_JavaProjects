@@ -6,7 +6,7 @@ public class Method1 {
 
 	public static void main(String[] args) {
 		// List<Integer> all;
-		ArrayList all = new ArrayList<Integer>(3);
+		ArrayList<Integer> all = new ArrayList<Integer>(3);
 		
 		all.add(10);// auto boxing
 		all.add(20);
