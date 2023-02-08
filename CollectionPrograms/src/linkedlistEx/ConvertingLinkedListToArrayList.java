@@ -16,7 +16,7 @@ public class ConvertingLinkedListToArrayList {
 		while (it.hasNext()) {
 			System.out.println(it.next());
 		}
-		// Converting LinkedList into arraylist
+		// Converting LinkedList into ArrayList
 		ArrayList<Integer> al = new ArrayList<Integer>(li);
 		System.out.println(al);
 	}
