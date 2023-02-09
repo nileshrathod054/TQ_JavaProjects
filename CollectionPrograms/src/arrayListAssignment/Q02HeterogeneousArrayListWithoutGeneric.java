@@ -3,7 +3,7 @@ package arrayListAssignment;
 import java.util.ArrayList;
 
 public class Q02HeterogeneousArrayListWithoutGeneric {
-
+long l=8605709787L;
 	public static void main(String[] args) {
 		ArrayList al = new ArrayList();
 		al.add(1);

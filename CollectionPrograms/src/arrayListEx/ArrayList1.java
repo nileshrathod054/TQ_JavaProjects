@@ -6,7 +6,7 @@ public class ArrayList1 {
 	public static void main(String[] args) {
 		// hetrogeneous
 		ArrayList al = new ArrayList();
-
+		
 		al.add(10);
 		al.add(56.5f);
 		al.add(44546.67);
