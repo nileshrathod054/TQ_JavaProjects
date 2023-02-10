@@ -62,6 +62,6 @@ public class ArrayListCRUDOperation {
 				System.out.println("Thank you for visiting us..!!");
 				return;
 			}
-		} while (choice < 4 && choice >= 0);
+		} while (choice !=4);
 	}
 }
