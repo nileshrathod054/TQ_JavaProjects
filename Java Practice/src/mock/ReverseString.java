@@ -1,6 +1,6 @@
 package mock;
 
-public class Demo {
+public class ReverseString{
 	public static void main(String[] args) {
 		String s = "Java is a object oriented programming";
 		char ch[] = s.toCharArray();
