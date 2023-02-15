@@ -3,7 +3,7 @@ package practice;
 public class Demo {
 	static int a = 10;
 	static int n;
-	 static int b = 5;
+	static int b = 5;
 	static int c;
 	{
 		b = 30;
