@@ -2,7 +2,7 @@ package map_assignment;
 
 public class Q12ReverseString {
 	public static void main(String[] args) {
-		String s = "Java is a object oriented programming";
+		String s = "Java is a object oriented programming language";
 		char ch[] = s.toCharArray();
 
 		String rev = "";

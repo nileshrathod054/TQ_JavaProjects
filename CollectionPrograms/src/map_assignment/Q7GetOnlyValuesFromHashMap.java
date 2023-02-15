@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 public class Q7GetOnlyValuesFromHashMap {
 	public static void main(String[] args) {
-		HashMap<Integer, String> hm1 = new HashMap<Integer, String>();
+		HashMap<Integer, String> hm1 = new HashMap<>();
 		hm1.put(101, "Nilesh");
 		hm1.put(102, "Ashwin");
 		hm1.put(103, "Pankaj");

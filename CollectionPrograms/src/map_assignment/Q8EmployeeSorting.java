@@ -36,9 +36,9 @@ public class Q8EmployeeSorting {
 	public static void main(String[] args) {
 		ArrayList<Employee> al = new ArrayList<Employee>();
 		al.add(new Employee(101, "Nilesh", 25000));
-		al.add(new Employee(102, "Shivam", 25000));
-		al.add(new Employee(103, "Ashwin", 25000));
-		al.add(new Employee(104, "Pankaj", 25000));
+		al.add(new Employee(102, "Shivam", 23000));
+		al.add(new Employee(103, "Ashwin", 27000));
+		al.add(new Employee(104, "Pankaj", 20000));
 
 		Collections.sort(al, new Name());
 		System.out.println(al);
