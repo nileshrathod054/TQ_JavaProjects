@@ -1,4 +1,4 @@
-package mapEx;
+package treemapEx;
 
 import java.util.HashMap;
 import java.util.NavigableMap;
