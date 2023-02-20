@@ -26,6 +26,8 @@ public class IterateList {
 			String name = str.next();
 			if (name.equals("Ram Kumar")) {
 				str.remove();
+				
+				
 				System.out.println("Object removed");
 				System.out.println(name);
 			}

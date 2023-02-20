@@ -1,6 +1,6 @@
 package treemapEx;
 
-public class Customer {
+public class Customer implements Comparable<Customer> {
 	int custId;
 	String custName;
 	String mobile;
@@ -16,4 +16,16 @@ public class Customer {
 	public String toString() {
 		return "Customer Id=" + custId + ", Customer Name=" + custName + ", Mobile=" + mobile;
 	}
+
+	@Override
+	public int compareTo(Customer o) {
+		if (this.custId < o.custId) {
+			return -1;
+
+		} else if (this.custId > o.custId) {
+			return 1;
+		} else
+			return 0;
+	}
+
 }

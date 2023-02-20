@@ -3,7 +3,7 @@ package array;
 public class Delete {
 	public static void main(String[] args) {
 		int arr[] = { 1, 2, 3, 4, 5 };
-		int pos = 2;
+		int pos = 1;
 
 		// Output=1 3 4 5
 
