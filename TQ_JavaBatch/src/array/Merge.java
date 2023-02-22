@@ -8,7 +8,7 @@ public class Merge {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter the size");
+		System.out.println("Enter the size 1st array");
 		int size1 = sc.nextInt();
 		int k = 0;
 
