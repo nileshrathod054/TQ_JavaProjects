@@ -9,7 +9,6 @@ class Course {
 	}
 
 	public Course(int cid, String cname) {
-		super();
 		this.cid = cid;
 		this.cname = cname;
 	}
@@ -30,7 +29,7 @@ public class Q6Student {
 	}
 
 	public Q6Student(int rollno, String name, Course c) {
-		super();
+
 		this.rollno = rollno;
 		this.name = name;
 		this.c = c;

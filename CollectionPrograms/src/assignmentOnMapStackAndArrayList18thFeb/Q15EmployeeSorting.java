@@ -79,12 +79,12 @@ public class Q15EmployeeSorting {
 	public static void main(String[] args) {
 		HashMap<Employee, String> hm = new HashMap<>();
 		
-		Dept d1 = new Dept(1, "Development");
-		Dept d2 = new Dept(2, "Testing");
-		Dept d3 = new Dept(3, "AL");
+		Dept d1 = new Dept(1, "HR");
+		Dept d2 = new Dept(2, "IT");
+		Dept d3 = new Dept(3, "Sales");
 		
 		hm.put(new Employee(1, "Ram", 25000, d1), "Pune");
-		hm.put(new Employee(2, "Sham", 28000, d2), "Nashik");
+		hm.put(new Employee(2, "Shyam", 28000, d2), "Nashik");
 		hm.put(new Employee(3, "Pankaj", 30000, d1), "Pune");
 		hm.put(new Employee(4, "Rajesh", 29000, d3), "Mumbai");
 		

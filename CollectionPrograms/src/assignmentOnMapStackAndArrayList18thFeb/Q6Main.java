@@ -5,11 +5,13 @@ import java.util.HashMap;
 public class Q6Main {
 	public static void main(String[] args) {
 		Q6Student s1 = new Q6Student(1, "Ram", new Course(101, "Java"));
-		Q6Student s2 = new Q6Student(2, "Shyam", new Course(102, "Python"));
+		Q6Student s2 = new Q6Student(2, "Shyam", new Course(102, "Java"));
 		Q6Student s3 = new Q6Student(3, "Nilesh", new Course(101, "Java"));
 		Q6Student s4 = new Q6Student(4, "Suraj", new Course(103, "Angular"));
 		Q6Student s5 = new Q6Student(5, "Shridhar", new Course(103, "Angular"));
-		Q6Student s6 = new Q6Student(6, "Ashwin", new Course(104, "C++"));
+		Q6Student s6 = new Q6Student(6, "Ashwin", new Course(104, "Java"));
+		Q6Student s7 = new Q6Student(7, "Vishal", new Course(105, "Java"));
+		Q6Student s8 = new Q6Student(8, "Aman", new Course(106, "Angular"));
 
 		HashMap<String, Integer> ch = new HashMap<>();
 
@@ -54,7 +56,18 @@ public class Q6Main {
 		} else {
 			ch.put(s6.c.cname, 1);
 		}
-
+		if (ch.containsKey(s7.c.cname)) {
+			Integer c = ch.get(s7.c.cname);
+			ch.put(s7.c.cname, c + 1);
+		} else {
+			ch.put(s7.c.cname, 1);
+		}
+		if (ch.containsKey(s8.c.cname)) {
+			Integer c = ch.get(s8.c.cname);
+			ch.put(s8.c.cname, c + 1);
+		} else {
+			ch.put(s8.c.cname, 1);
+		}
 		System.out.println(ch);
 
 	}

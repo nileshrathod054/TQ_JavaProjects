@@ -10,7 +10,7 @@ public class Q8_RemoveElements {
 		hs.add("Monday");
 		hs.add("Tuesday");
 		hs.add("Wednesday");
-		hs.add("Thusday");
+		hs.add("Thursday");
 		hs.add("Friday");
 		hs.add("Saturday");
 		hs.add("Sunday");
@@ -20,7 +20,10 @@ public class Q8_RemoveElements {
 		while (it.hasNext()) {
 			String s = it.next();
 
-			if ((s.equals("Saturday")) || (s.equals("Sunday"))) {
+//			if ((s.equals("Saturday")) || (s.equals("Sunday"))) {
+//				it.remove();
+//		}
+			if ((s.contains("Saturday")) || (s.contains("Sunday"))) {
 				it.remove();
 			}
 		}

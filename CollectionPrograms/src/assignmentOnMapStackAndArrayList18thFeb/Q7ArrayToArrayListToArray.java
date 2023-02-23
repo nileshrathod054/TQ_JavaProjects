@@ -13,9 +13,9 @@ public class Q7ArrayToArrayListToArray {
 		System.out.println(al);
 		al.add(50);
 		System.out.println(al);
-		// System.out.println(li);
+		
 		// Converting ArrayList to array
-		ArrayList<Integer> all = new ArrayList<Integer>(3);
+		ArrayList<Integer> all = new ArrayList<Integer>();
 		all.add(10);
 		all.add(20);
 		all.add(30);
