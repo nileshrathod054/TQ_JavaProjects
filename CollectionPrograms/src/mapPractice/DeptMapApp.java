@@ -35,6 +35,18 @@ public class DeptMapApp {
 
 		System.out.println(deptmap);
 
+		Set<Entry<Integer, Department>> entry = deptmap.entrySet();
+		for (Entry<Integer, Department> e : entry) {
+			System.out.println("(Key) Dept Id : " + e.getKey());
+
+			Department o = e.getValue();
+			System.out.println("Department Id : " + o.deptid + " Department Name : " + o.deptname);
+
+			List<Student> sl = o.studentlist;
+			for (Student s : sl) {
+				System.out.println("\t\t" + "Student Id : " + s.rollno + " Student Name : " + s.name);
+			}
+		}
 	}
 
 }
