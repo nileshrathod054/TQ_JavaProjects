@@ -1,6 +1,6 @@
 package mapEx;
 
-public class Department{
+public class Department {
 	int d_id;
 	String d_name;
 
@@ -18,4 +18,4 @@ public class Department{
 		return "Dept_Id=" + d_id + ", Dept_Name=" + d_name;
 	}
 
-	}
+}
