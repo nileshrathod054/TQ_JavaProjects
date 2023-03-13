@@ -10,8 +10,18 @@ public class Shop {
 	private String lease_status;
 
 	public Shop() {
-		super();
 
+	}
+	public Shop( String shop_category, String shop_name, String customer_name, String shop_status,
+			String shop_owner, String lease_status,int shop_id) {
+		super();
+		this.shop_id = shop_id;
+		this.shop_category = shop_category;
+		this.shop_name = shop_name;
+		this.customer_name = customer_name;
+		this.shop_status = shop_status;
+		this.shop_owner = shop_owner;
+		this.lease_status = lease_status;
 	}
 
 	public Shop(int shop_id, String shop_category, String shop_name, String customer_name, String shop_status,

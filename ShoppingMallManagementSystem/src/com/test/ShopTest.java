@@ -52,8 +52,7 @@ public class ShopTest {
 				break;
 			}
 			case 2: {
-				System.out.println("Enter Shop Id");
-				int id = sc.nextInt();
+				
 				System.out.println("Enter Shop Category");
 				String category = sc.next();
 				System.out.println("Enter Shop Name");
@@ -66,8 +65,9 @@ public class ShopTest {
 				String s_owner = sc.next();
 				System.out.println("Enter Lease Status");
 				String l_status = sc.next();
-
-				s = new Shop(id, category, s_name, c_name, s_status, s_owner, l_status);
+				System.out.println("Enter Shop Id");
+				int id = sc.nextInt();
+				s = new Shop( category, s_name, c_name, s_status, s_owner, l_status,id);
 				boolean b = cr.update(s);
 				if (b == true) {
 					System.out.println("Record Updated sucessfully");

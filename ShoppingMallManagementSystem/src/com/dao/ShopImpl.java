@@ -42,14 +42,15 @@ public class ShopImpl implements ShopController {
 	@Override
 	public boolean update(Shop s) throws SQLException {
 		PreparedStatement ps = con.prepareStatement(
-				"update shop set shop_category=?,shop_name=?,customer_name=?,shop_status=?,shop_owner=?,lease_status where shop_id=?");
-		ps.setInt(1, s.getShop_id());
-		ps.setString(2, s.getShop_category());
-		ps.setString(3, s.getShop_name());
-		ps.setString(4, s.getCustomer_name());
-		ps.setString(5, s.getShop_status());
-		ps.setString(6, s.getShop_owner());
-		ps.setString(7, s.getLease_status());
+				"update shop set shop_category=?,shop_name=?,customer_name=?,shop_status=?,shop_owner=?,lease_status=? where shop_id=?");
+	
+		ps.setString(1, s.getShop_category());
+		ps.setString(2, s.getShop_name());
+		ps.setString(3, s.getCustomer_name());
+		ps.setString(4, s.getShop_status());
+		ps.setString(5, s.getShop_owner());
+		ps.setString(6, s.getLease_status());
+		ps.setInt(7, s.getShop_id());
 		int x = ps.executeUpdate();
 
 		if (x == 1)
