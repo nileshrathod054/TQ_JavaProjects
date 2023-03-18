@@ -50,34 +50,26 @@ public class PersonMain {
 					int ch = sc.nextInt();
 					PersonRecord pr = new PersonImpl();
 					Person p;
-					switch (ch) {
-					case 1: {
-						System.out.println("Please Enter Your data....");
-						System.out.println("Please Enter Your Id...");
-						int p_id = sc.nextInt();
-						System.out.println("Please Enter Your Name...");
-						String p_name = sc.next();
-						System.out.println("Please Enter Your Date Of Birth...");
-						String p_dob = sc.next();
-						System.out.println("Please Enter Your Adhar Card Number....");
-						String p_adhar = sc.next();
-						System.out.println("Please Enter Your Phone Number...");
-						String p_phno = sc.next();
-						System.out.println("Please Enter Your Address...");
-						String p_address = sc.nextLine();
 
-						p = new Person(p_id, p_name, p_dob, p_adhar, p_phno, p_address);
-						boolean bool = pr.insert(p);
+					System.out.println("Please Enter Your data....");
+					System.out.println("Please Enter Your Id...");
+					int p_id = sc.nextInt();
+					System.out.println("Please Enter Your Name...");
+					String p_name = sc.next();
+					System.out.println("Please Enter Your Date Of Birth...");
+					String p_dob = sc.next();
+					System.out.println("Please Enter Your Adhar Card Number....");
+					String p_adhar = sc.next();
+					System.out.println("Please Enter Your Phone Number...");
+					String p_phno = sc.next();
+					System.out.println("Please Enter Your Address...");
+					String p_address = sc.nextLine();
 
-						if (bool == true)
-							System.out.println("\nVaccine Slot got booked successfully..!!");
+					p = new Person(p_id, p_name, p_dob, p_adhar, p_phno, p_address);
+					boolean bool = pr.insert(p);
 
-					}
-					case 2: {
-						pr.display();
-						break;
-					}
-					}
+					if (bool == true)
+						System.out.println("\nVaccine Slot got booked successfully..!!");
 
 					System.out.println("\nDo you want to  book the vaccination slot yes/no");
 					ans = sc.next();
@@ -93,8 +85,8 @@ public class PersonMain {
 		}
 
 		Controller cr = new Controller();
-		cr.show1();
-		cr.show2();
+		cr.show_state();
+		cr.show_city();
 		PersonMain pm = new PersonMain();
 		pm.view();
 	}

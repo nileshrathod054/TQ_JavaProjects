@@ -18,7 +18,7 @@ public class Controller {
 		con = DBConnection.getConnection();
 	}
 
-	public void show1() throws SQLException {
+	public void show_state() throws SQLException {
 		System.out.println("\n---------List Of The States--------");
 		Statement st1 = con.createStatement();
 		ResultSet rs = st1.executeQuery("select * from state");
@@ -39,7 +39,7 @@ public class Controller {
 
 	}
 
-	public void show2() throws SQLException {
+	public void show_city() throws SQLException {
 		System.out.println("\n-----------List Of The City----------");
 		Statement st = con.createStatement();
 		ResultSet rs2 = st.executeQuery("select * from center");

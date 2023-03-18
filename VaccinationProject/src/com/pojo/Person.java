@@ -2,13 +2,12 @@ package com.pojo;
 
 public class Person {
 	int p_id;
-	String p_name;
-	String p_dob;
-	String p_adhar;
-	String p_phno;
-	String p_address;
+	private String p_name;
+	private String p_dob;
+	private String p_adhar;
+	private String p_phno;
+	private String p_address;
 
-	
 	public Person() {
 		super();
 
