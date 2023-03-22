@@ -12,7 +12,7 @@ public class MainThread {
 
 		System.out.println(s + " " + pr + " " + l);
 		t.sleep(2000);
-		System.out.println("ending thread");
+		System.out.println("Ending thread");
 
 	}
 

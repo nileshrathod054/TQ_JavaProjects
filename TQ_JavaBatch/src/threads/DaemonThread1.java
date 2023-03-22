@@ -4,7 +4,7 @@ class Thread1 extends Thread {
 	public void run() {
 		Thread t = Thread.currentThread();
 		if (t.isDaemon()) {
-			Employee e = new Employee(1, "ppoja");
+			Employee e = new Employee(1, "pooja");
 			e.display();
 		} else
 			System.out.println("user Thread");
