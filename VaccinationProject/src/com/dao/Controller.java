@@ -10,9 +10,10 @@ import java.util.Scanner;
 import com.connection.DBConnection;
 
 public class Controller {
-	Scanner sc = new Scanner(System.in);
+	static Scanner sc = new Scanner(System.in);
 
 	Connection con;
+	static int st_id;
 
 	public Controller() throws ClassNotFoundException, SQLException {
 		con = DBConnection.getConnection();
@@ -39,6 +40,12 @@ public class Controller {
 
 	}
 
+	public static int showStateId() {
+		System.out.println("Enter your choice");
+		st_id = sc.nextInt();
+		return st_id;
+	}
+
 	public void show_city() throws SQLException {
 		System.out.println("\n-----------List Of The City----------");
 		Statement st = con.createStatement();
@@ -58,5 +65,4 @@ public class Controller {
 
 	}
 
-	
 }
