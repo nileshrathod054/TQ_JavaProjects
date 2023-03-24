@@ -21,8 +21,9 @@ public class Employeee1Main {
 			Employee1 e = it.next();
 			if (e.salary < 20000) {
 				System.out.println(e.name);
-
-				System.out.println(e.salary + e.salary * 0.20);
+				float b = e.salary + e.salary * 0.10F;
+				e.setSalary(b);
+				System.out.println(e.getSalary());
 			}
 
 		}

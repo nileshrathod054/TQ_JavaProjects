@@ -1,19 +1,18 @@
 package mock;
-//Create one arraylist of employee type, employee contain id, name, salary 
-
+//Create one ArrayList of employee type, employee contain id, name, salary 
 //update salary by  10% of those employee
 //whose salary is 20000
 
 public class Employee1 {
 	int id;
 	String name;
-	int salary;
+	float salary;
 
 	Employee1() {
 
 	}
 
-	public Employee1(int id, String name, int salary) {
+	public Employee1(int id, String name, float salary) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -36,11 +35,11 @@ public class Employee1 {
 		this.name = name;
 	}
 
-	public int getSalary() {
+	public float getSalary() {
 		return salary;
 	}
 
-	public void setSalary(int salary) {
+	public void setSalary(float salary) {
 		this.salary = salary;
 	}
 

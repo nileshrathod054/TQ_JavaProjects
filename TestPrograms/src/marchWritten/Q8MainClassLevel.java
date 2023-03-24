@@ -13,8 +13,8 @@ class Test1 implements Runnable {
 public class Q8MainClassLevel {
 	public static void main(String[] args) {
 		Test1 th = new Test1();
-
-		th.start();
+		Thread t = new Thread(th);
+		t.start();
 		System.out.println("Main");
 	}
 }
