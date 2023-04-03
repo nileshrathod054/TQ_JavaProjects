@@ -21,8 +21,9 @@ public class Student implements Comparable<Student> {
 		else
 			return -1;
 	}
+
 	@Override
-public String toString() {
-	return "Student [RollNo="+rollno+", Name="+name+", Age="+age+"]";
-}
+	public String toString() {
+		return "Student [RollNo=" + rollno + ", Name=" + name + ", Age=" + age + "]";
+	}
 }
