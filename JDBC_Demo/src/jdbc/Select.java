@@ -25,6 +25,7 @@ public class Select {
 
 			System.out.println(rs.getInt(1) + " " + rs.getString(2) + " " + rs.getFloat(3)+" "+rs.getInt(4));
 		}
+		
 	}
 
 }
