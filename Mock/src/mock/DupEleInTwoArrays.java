@@ -1,7 +1,7 @@
 package mock;
 
 //Find the duplicate values in two arrays
-public class Demo {
+public class DupEleInTwoArrays {
 	public static void main(String[] args) {
 
 		int arr1[] = { 4, 7, 3, 9, 2 };
