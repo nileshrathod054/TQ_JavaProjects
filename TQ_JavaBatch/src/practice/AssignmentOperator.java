@@ -1,4 +1,4 @@
-package operators;
+package practice;
 
 public class AssignmentOperator {
 	public static void main(String[] args) {

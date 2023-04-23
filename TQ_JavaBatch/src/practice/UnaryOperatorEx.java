@@ -1,4 +1,4 @@
-package operators;
+package practice;
 
 public class UnaryOperatorEx {
 	public static void main(String[] args) {

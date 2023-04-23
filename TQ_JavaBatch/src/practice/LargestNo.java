@@ -1,4 +1,4 @@
-package operators;
+package practice;
 
 import java.util.*;
 

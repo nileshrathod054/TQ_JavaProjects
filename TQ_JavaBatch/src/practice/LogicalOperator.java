@@ -1,4 +1,4 @@
-package operators;
+package practice;
 
 public class LogicalOperator {
 	public static void main(String[] args) {

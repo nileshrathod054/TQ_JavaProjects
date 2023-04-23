@@ -1,12 +1,9 @@
-package operators;
+package practice;
 
-public class Solution {
+public class RelationalOperator {
 	public static void main(String[] args) {
-
-		int x = 6;
-		int y = 5;
-
-		if (++y == x--) {
+		char ch = 'a';
+		if (ch > 70) {
 			System.out.println("Coding Ninjas");
 		} else {
 			System.out.println("Ninjas");

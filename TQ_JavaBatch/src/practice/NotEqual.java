@@ -1,4 +1,4 @@
-package operators;
+package practice;
 
 public class NotEqual {
 	public static void main(String[] args) {
