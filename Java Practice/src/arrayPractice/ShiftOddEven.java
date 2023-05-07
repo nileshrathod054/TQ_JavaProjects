@@ -31,6 +31,6 @@ public class ShiftOddEven {
 		System.out.println("Original Array : " + Arrays.toString(arr));
 
 		result = seperate_odd_even(arr);
-		System.out.println("Array after seperation: " + Arrays.toString(arr));
+		System.out.println("Array after seperation: " + Arrays.toString(result));
 	}
 }
