@@ -6,7 +6,7 @@ import java.util.TreeMap;
 public class StudentCourseHashMap {
 
 	public static void main(String[] args) {
-		HashMap<Student, Course> hs = new HashMap();
+		HashMap<Student, Course> hs = new HashMap<>();
 		Student s1 = new Student(1, "pooja");
 		Student s2 = new Student(2, "ram");
 		Student s3 = new Student(3, "alex");

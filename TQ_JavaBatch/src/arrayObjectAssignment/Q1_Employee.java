@@ -74,7 +74,7 @@ public class Q1_Employee {
 			System.out.println("Employee Name: " + employees[i].getEmpname());
 			System.out.println("Department Id: " + employees[i].getDept().getDeptId());
 			System.out.println("Department Name: " + employees[i].getDept().getDeptname());
-			System.out.println();
+			
 		}
 
 	}
